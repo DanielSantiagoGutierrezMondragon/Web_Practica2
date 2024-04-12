@@ -3,63 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Skills</title>
-    <link rel="stylesheet" href="./img/icons/github.svg">
-    <link rel="stylesheet" href="/css/styles.css">
-
-    <script src="https://kit.fontawesome.com/08a884dddc.js" crossorigin="anonymous"></script>
+    <title>Taller de Manipulación del DOM</title>
+    <link rel="stylesheet" href="/Css/Styles.css">
 </head>
 <body>
-
-
-    <div class="container">
-        <div class="firts">
-            <div class="icon">
-                <i class="fa-brands fa-github"></i>
-                <h4>Skills</h4>
-            </div>
-
-            <div class="second">
-                <div class="hijo1">
-                    <h1>Git Skills</h1>
-                    <p>Learn how to use GitHub with interactive courses designed for beginners and experts.</p>
-                    <div class="contenedorA">
-                        <a href="https://github.com/skills/introduction-to-github" target="_blank">Start with Introduction to GitHub</a>
-                    </div>
-                </div>
-                <div class="hijo2">
-                    <img src="https://user-images.githubusercontent.com/1221423/156894097-ff2d6566-7b6a-4488-950e-f4ebe990965a.svg" alt="">
-                </div>
-            </div>
-        </div>
-
-
-        <!--COURSES-->
-        
-        <div class="coursers">
-            <div class="contenidoCourses">
-                <h2>Our courses</h2>
-                <h3>First day on GitHub</h3>
-                <div class="cursos">
-                    <div class="cards">
-                        <a href="https://github.com/skills/introduction-to-github" target= "_blank"><h3>Introduction to GitHub</h3></a>
-                        <p>Get started using GitHub in less than an hour.</p>
-                    </div>
-    
-                    <div class="cards">
-                        <h3>Communicate using Markdown</h3>
-                        <p>Organize ideas and collaborate using Markdown, a lightweight language for text formatting.</p>
-                    </div>
-    
-                    <div class="cards">
-                        <h3>GitHub Pages</h3>
-                        <p>Create a site or blog from your GitHub repositories with GitHub Pages.</p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
+<Div class="ContenedorPadre">
+    <div class="ContenedorParrafoColor">
+        <h2>Cambiar Color del Párrafo</h2>
+        <p id="miParrafo">Cristiano Ronaldo dos Santos Aveiro, es un futbolista portugués. Juega como extremo izquierdo o delantero y su equipo actual es el Al-Nassr F. C. de la Liga Profesional Saudí</p>
+        <button onclick="cambiarColor()">Cambiar Color</button>
     </div>
-    
+    <div class="ContenedorImagen">
+        <h2>Agregar Imagen</h2>
+        <div id="imagen"> <img  src= "/img/CR7.jpg" alt="Imagen GOAT"> </div>
+    </div>
+    <div class="ContenedorEnlaces">
+        <h2>Eliminar Enlace</h2>
+        <ul id="listaEnlaces">
+        <li><a id="Enlace" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gq.com.mx%2Fmoda%2Farticulo%2Fcristiano-ronaldo-sus-marcas-de-ropa-favoritas&psig=AOvVaw0OVl1xUdImla502mMIGMHO&ust=1712981949634000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMDhp5fpu4UDFQAAAAAdAAAAABAE">Enlace 1</a> <button class="eliminarBtn" onclick="eliminarEnlace()">Eliminar</button></li>
+        <li><a id="Enlace" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.publimetro.pe%2Festilo-vida%2F2023%2F07%2F20%2Fpotente-fresco-y-duradero-conoce-el-nuevo-perfume-citrico-y-frutal-de-cristiano-ronaldo%2F&psig=AOvVaw0OVl1xUdImla502mMIGMHO&ust=1712981949634000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMDhp5fpu4UDFQAAAAAdAAAAABAJ">Enlace 2</a> <button class="eliminarBtn" onclick="eliminarEnlace()">Eliminar</button></li>
+        </ul>
+    </div>
+</Div>
+    <script src="Index.js"></script>
 </body>
 </html>

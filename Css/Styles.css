@@ -1,152 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300..700&display=swap');
-
-body, html{
-    
-    height: auto;
+body{
     margin: 0;
     padding: 0;
-    font-family: "Pontano Sans", sans-serif;
-    background-color: black;
+    background-color: burlywood;
 }
 
-
-/*SCTION CONTAINER FIRTS*/
-.container{
+.ContenedorPadre{
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: blueviolet;
 }
-.container .firts{
-   
-    margin: 0px 150px 0px 150px;
-}
-.container .firts .icon{
-    display: flex;
-    flex-direction: row;
+
+.ContenedorPadre .ContenedorParrafoColor {
     width: 100%;
-    height: 50px;
-    padding: 10px;
-    align-items: center;
-    gap: 10px;
-}
-
-.container .firts .icon i{
-    font-size: 40px;
-    cursor: pointer;
-    color: white;
-}
-.container .firts .icon h4{
-    cursor: pointer;
-    color: white;
-}
-.container .firts .icon i:hover{
-    color: #2F81F7;
-}
-.container .firts .icon h4:hover{
-    color: #2F81F7;
-}
-
-.container .firts .second{
+    height: 300px;
     display: flex;
-    flex-direction: row;
-    padding: 10px;
-    gap: 10px;
-    justify-content: space-between;
-}
-.container .firts .second h1{
-    color: white;
-    margin: 22px 0px 10px 0px;
-}
-.container .firts .second p{
-    color: #848D97;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+  .ContenedorParrafoColor h2 {
     font-size: 24px;
-    margin: 0px 0px 50px 0px;
-    
-}
-
-
-.container .firts .second .hijo1{
-    width: 55%;
-}
-.container .firts .second .hijo2{
-    width: 35%;
-}
-.container .firts .second .hijo1 .contenedorA{
-    width: 250px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #238636;
-    border-radius: 5px;
-    
-}
-.container .firts .second .hijo1 .contenedorA:hover{
-    background-color: rgb(25, 193, 59);
-
-}
-
-.container .firts .second .hijo1 a{
-    color: white;
-    text-decoration: none;
-    margin: 0;
-}
-.container .firts .second .hijo2 img{
-    width: 350px;
-}
-
-
-/*SECTION TWO*/
-.container .coursers{
-    background-color: rgb(115, 116, 119);
-    width: 100%;
-    height: auto;
-}
-
-.container .coursers .contenidoCourses{
-    color: rgb(115, 116,119);
-    margin: 0px 150px 0px 150px;
-    height: auto;
-    padding: 10px;
-}
-
-.container .coursers .contenidoCourses h2{
-   color: white;
-}
-.container .coursers .contenidoCourses h3{
-    color: white;
- }
- .container .coursers .contenidoCourses .cursos{
-    width: 100%;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 10px;
   }
-.container .coursers .contenidoCourses .cursos .cards{
-  width: 33%;
-  height: 100px;
-  border-radius: 5px;
-  border: 1px solid #30363D;
-  padding: 10px;
-}
-
-.container .coursers .contenidoCourses .cursos h3{
-    color: #2F81F7;
+  .ContenedorParrafoColor p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  .ContenedorParrafoColor button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .ContenedorPadre .ContenedorImagen{
     width: 100%;
-    margin: 0;
-    padding: 10px;
-      }
-
-.container .coursers .contenidoCourses .cursos .cards p{
-   color: grey; 
-   width: 100%;
-   margin: 0;
-   padding: 10px;
+    height: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: purple;
   }
 
- 
+  .ContenedorImagen .imagen{
+    width: 100%;
+    align-items: center;
+    margin-bottom: 40px;
+    display: flex;
+  }
 
+  .ContenedorPadre .ContenedorEnlaces{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
